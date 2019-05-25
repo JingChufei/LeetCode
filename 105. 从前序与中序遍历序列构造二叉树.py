@@ -26,7 +26,7 @@ class Solution:
         node.right = self.buildTree(preorder[index_in+1:], inorder[index_in+1:])
         
         return node
-           
+        
     
     # 寻找target在列表a中的索引
     def search(self, a, target):
